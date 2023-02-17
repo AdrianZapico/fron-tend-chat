@@ -1,6 +1,6 @@
 :root {
-    --primary-color: #005fff;
-    --primary-color-alpha: #005fff1a;
+    --primary-color: #dd3d33;
+    --primary-color-alpha: #dd3d33;
   }
   
   html,
@@ -27,7 +27,9 @@
     justify-content: center;
   
     padding: 2rem;
-    background: #005fff;
+    background: #dd3d33;
+    
+
   }
   
   .auth__form-container_image {
@@ -56,7 +58,7 @@
   .auth__form-container_fields-content p {
     font-size: 1.5rem;
     font-family: Arial, Helvetica, sans-serif;
-    color: #05245a;
+    color: #dd3d33;
     font-weight: 900;
   }
   
@@ -101,8 +103,8 @@
   
   .auth__form-container_fields-content_input input:focus,
   .auth__form-container_fields-content_input input:active {
-    box-shadow: 0px 0px 0px 1.5px #005fff;
-    border-color: #005fff;
+    box-shadow: 0px 0px 0px 1.5px #dd3d33;
+    border-color: #dd3d33;
   }
   
   .auth__form-container_fields-content_input-password {
@@ -120,8 +122,8 @@
   
   .auth__form-container_fields-content_button button {
     border-radius: 4px;
-    background: #005fff;
-    border: 1px solid #005fff;
+    background: #dd3d33;
+    border: 1px solid #dd3d33;
     color: #fff;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 500;
@@ -132,7 +134,7 @@
   }
   
   .auth__form-container_fields-content_button button:hover {
-    background: #0066ff;
+    background: #dd3d33;
   }
   
   .auth__form-container_fields-account {
@@ -150,7 +152,7 @@
   }
   
   .auth__form-container_fields-account span {
-    color: #05245a;
+    color: #dd3d33;
     cursor: pointer;
     font-weight: 700;
   }
@@ -385,7 +387,7 @@
     margin: 14px;
     background: linear-gradient(
         150.64deg,
-        rgba(0, 0, 0, 0.1) 12.73%,
+        rgba(8, 6, 102, 0.1) 12.73%,
         rgba(0, 0, 0, 0) 89.32%
       ),
       #ffffff;
@@ -495,7 +497,7 @@
     position: absolute;
     height: fit-content;
     width: 300px;
-    background: #fff;
+    background: #282222;
     border: 1px solid #e9e9ea;
     box-sizing: border-box;
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.06);
@@ -571,7 +573,7 @@
     font-weight: 500;
     font-size: 14px;
     line-height: 120%;
-    color: #2c2c30;
+    color: #e7e7e7;
   }
   
   .create-channel__container {
@@ -921,6 +923,7 @@
     display: flex;
     align-items: center;
     cursor: pointer;
+    
   }
   
   .team-channel-header__right svg {
@@ -931,17 +934,18 @@
   .team-channel-header__right-text {
     font-family: Helvetica Neue, sans-serif;
     font-size: 14px;
-    color: #858688;
+    color: #858885;
   }
   
   .team-channel-list {
     width: 100%;
     display: flex;
     flex-direction: column;
+    background-color: #110d0d;
   }
   
   .team-channel-list__message {
-    color: #ffffff;
+    color: #0e0a0a;
     padding: 0 16px;
   }
   
@@ -954,10 +958,14 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    background-color: #903933;
+    border: solid white;
+    border-radius:1px  ;
   }
   
   .team-channel-list__header svg {
     cursor: pointer;
+    
   }
   
   .team-channel-list__header__title {
@@ -967,6 +975,7 @@
     height: 16px;
     color: rgba(255, 255, 255, 0.66);
     margin-bottom: 10px;
+    
   }
   
   .channel-preview__wrapper {
@@ -979,7 +988,8 @@
     height: auto;
     display: flex;
     align-items: center;
-    background: rgba(0, 0, 0, 0.2);
+    background: rgba(163, 108, 108, 0.2);
+    border: solid 0.5px rgb(250, 250, 250);
     border-top-right-radius: 8px;
     border-bottom-right-radius: 8px;
     font-weight: bold;
@@ -1006,6 +1016,7 @@
     padding: 0px 20px;
     height: 100%;
     width: 100%;
+  
     text-overflow: ellipsis;
     word-break: break-all;
   }
@@ -1016,16 +1027,21 @@
   
   .channel-preview__item.single .str-chat__avatar {
     margin-right: 12px;
+    background-color: #dd3d33;
   }
   
   .channel-preview__item.multi .str-chat__avatar {
     margin-right: 0;
+    
+    
   }
   
   .channel-preview__item.multi span:first-child {
     position: relative;
     z-index: 2;
     bottom: 6px;
+    
+    
   }
   
   .channel-preview__item.multi div:nth-child(2) {
@@ -1033,12 +1049,16 @@
     right: 10px;
     z-index: 1;
     margin-bottom: 0px;
+    
+    
   }
   
   .channel-preview__item.multi p {
     overflow: hidden;
     white-space: nowrap;
     text-overflow: ellipsis;
+    
+    
   }
   
   .str-chat__message-team:hover {
@@ -1712,7 +1732,7 @@
     display: none;
     height: 50px;
     width: 50px;
-    background: #005fff;
+    background: #dd3d33;
     position: absolute;
     right: -2%;
     top: 50%;
