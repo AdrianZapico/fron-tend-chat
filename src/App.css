@@ -8,6 +8,7 @@
     margin: 0;
     padding: 0;
     height: 100%;
+  
   }
   
   #root {
@@ -852,11 +853,13 @@
     box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.1);
     border-top-right-radius: 16px;
     z-index: 1;
+    background-color:  #b13129;
   }
   
   .team-channel-header__channel-wrapper {
     display: flex;
     align-items: center;
+    background-color:  #b13129;
   }
   
   .team-channel-header__channel-wrapper svg {
@@ -867,7 +870,7 @@
     font-family: Helvetica Neue, sans-serif;
     font-weight: bold;
     font-size: 18px;
-    color: #2c2c30;
+    color: #fdfdfd;
     margin-right: 8px;
   }
   
@@ -880,6 +883,7 @@
     white-space: nowrap;
     -ms-overflow-style: none;
     scrollbar-width: none;
+    background-color:  #b13129;
   }
   
   @media screen and (min-width: 1070px) {
@@ -909,6 +913,7 @@
   .team-channel-header__name.user {
     font-weight: 500;
     font-size: 14px;
+    
   }
   
   .team-channel-header__right {
@@ -917,6 +922,7 @@
     align-items: center;
     justify-content: flex-end;
     text-align: right;
+    background-color:  #b13129;
   }
   
   .team-channel-header__right-pin-wrapper {
